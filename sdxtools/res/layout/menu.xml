@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnPI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Information" />
+
+            <Button
+                android:id="@+id/btnSAR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stock App Removal" />
+
+            <Button
+                android:id="@+id/btnFM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="File Manager" />
+
+            <Button
+                android:id="@+id/btnSM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scritp Manager" />
+
+            <Button
+                android:id="@+id/btnLM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logcat Manager" />
+
+            <Button
+                android:id="@+id/btnPD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Dump" />
+
+            <Button
+                android:id="@+id/btnRoot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Root" />
+
+            <Button
+                android:id="@+id/btnKernel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kernel Options" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+  

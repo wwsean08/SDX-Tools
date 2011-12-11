@@ -1,0 +1,77 @@
+This is just a basic structure layout. Nothing is set in stone right now, this
+is just the direction I would like to see it go. If you think there is a better
+way, let me know.
+  This is a community project based pretty much on what you can do. For example,
+if you would like to do the PhoneInfo part of it, fork it and start working.
+Send a pull request and we can get it added. Below is information about the goal
+and features of the application.
+
+
+List of tools to include in SDX Tools Application
+
+    1. Stock app removal w/backup options for those apps
+    2. Detailed phone information:
+       a. phone model
+       b. android version
+       c. build/baseband
+       d. cpu hardware
+       e. cpu model
+       f. cpu frequency
+       g. screen res
+       h. gpu type
+       i. openGL version
+       j. memory avail out of memory total (RAM)
+       k. Storage avail out of storage total (Phone)
+       l. Storage avail out of storage avail (SDcard)
+       m. kernel information including gcc version
+       n. MSL -ften edit
+       o. Networking Info -rxaaron edit
+            i.   Wifi or Cellular Data
+            ii.  IP Address
+            iii. MAC Address
+            iv.  if Wifi, SSID
+            v.   ISP
+            vi.  Gateway
+            vii. DNS
+    3. Kernel options
+        a. Current freq
+        b. Min/Max CPU freq including full freq table
+        c. I/O Scheduler
+        d. Governor list and ability to change
+        e. Ability to apply on boot
+        f. graph/table of freq over the last 30 seconds or so (big maybe on
+           this, hard to implement)
+        g. HAVS/SVS control for VDD if passed to userspace
+    4. Root file browser with the ability to mount system as RW (using busybox)
+       and edit files
+    5. Run root expoloit if supported (I.E. for samsung phones, run the ratc
+       exploit for temporary root)
+    6. Perm root using either AOSP binaries or SU binary + group and passwd
+       files
+    7. Perform dumps of kernel/system/recovery (no data as it has PII) to
+       sdcard.
+    8. Dump Logcat to /sdcard/Log/ or send to email. Have a settings options to
+       narrow down output. -ften edit
+    9. Init scripts management -rxaaron edit
+    10. Ad blocker -momentandroid edit (maybe)
+
+
+  
+
+If there is anything else anyone can think of, please please please please add
+it to the list. Any and all help is greatly appreciated as I want this to be a
+rather large community project. From coding to suggestions to icons and images,
+everything is appreciated!
+
+  Ive decided to go with the viewpager layout that joeykrim has proven looks
+brilliant when done right. If you can think of anyone else that could provide
+insight or help in this project, please forward this and have them contact me
+( dodgejcr@gmail.com dodgejcr@sdx-developers.com or dodge@dodgejcr.com ).
+Hopefully with teamwork and dedication, we can get one application to help out
+with all things root. No longer will we have the need for twenty applications to
+get what we flashaholics, gurus, or general tinkerers crave in android rooting
+options.
+
+Thank you for your time,
+Josh Crowder
+-- dodgejcr
